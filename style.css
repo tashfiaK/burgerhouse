@@ -1,0 +1,436 @@
+/*common start*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 16px;
+    color: #3d2514;
+}
+/*common end*/
+
+/*header start*/
+header {
+    /*background-color: #ffc657;*/
+    padding-top: 30px;
+    background-image: url(images/back_img.jpg);
+    background-size: cover;
+}
+.container {
+    margin: 0 auto;
+    width: 95%;
+    /*border: 1px solid navy;*/
+    overflow: hidden;
+}
+/*-----left-----*/
+.left {
+    float: left;
+    width: 50%;
+    /*border: 2px solid red;*/
+    min-height: 200px;
+}
+.logo {
+    float: left;
+    width: 50%;
+}
+.logo a {
+    display: inline-block;
+}
+.logo a img {
+    width: 100%;
+    /*border: 1px solid red;*/
+}
+.hd_h2 {
+    margin-top: 200px;
+    padding: 5px 10px;
+    width: 255px;
+    /*float: left;*/
+    border: 1px dashed black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+}
+.hd_h1 {
+    margin-top: 0;
+    font-size: 100px;
+    line-height: 95px;
+    text-transform: uppercase;
+}
+.hd_h1 span {
+    font-size: 75px;
+}
+/*-----right-----*/
+.right {
+    float: left;
+    width: 50%;
+    /*border: 2px solid green;*/
+}
+.m_p {
+    margin: 0;
+    float: right;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.m_p a {
+    text-decoration: none;
+    color: #3d2514;
+    transition: .33s;
+}
+.m_p a:hover {
+    color: #cd1717;
+}
+.menu {
+    float: right;
+    width: 70%;
+}
+.menu ul {
+    float: right;
+}
+.menu ul li {
+    float: left;
+    list-style: none;
+}
+.menu ul li a {
+    margin: 10px 15px;
+    text-decoration: none;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.menu ul li:last-child a {
+    margin-right: 0;
+}
+.hr_image {
+    /*margin-bottom: 20px;*/
+    float: left;
+    width: 95%;
+}
+.hr_image img {
+    width: 100%;
+}
+/*header end*/
+
+/*advertise start*/
+.advertise {
+}
+.container-2 {
+    margin: 0 auto;
+    padding: 40px 0 60px;
+    width: 90%;
+    /*border: 2px solid red;*/
+    overflow: hidden;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+.ad_left {
+    margin-left: 5px;
+    padding: 10px 15px;
+    float: left;
+    width: 45%;
+    background-image: url(images/ad_1.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border: 1px solid transparent;
+    border-radius: 2%;
+    min-height: 420px;
+}
+.ad_p {
+    font-size: 16px;
+    line-height: 0;
+}
+.ad_h2 {
+    font-size: 25px;
+}
+.ad_right {
+    margin-right: 30px;
+    float: right;
+    width: 45%;
+    /*border: 1px solid navy;*/
+}
+.r_top {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    min-height: 190px;
+    width: 100%;
+    background-image: url(images/ad_2.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    border: none;
+    border: 1px solid transparent;
+    border-radius: 2%;
+}
+.sp {
+    line-height: 23px;
+}
+.r_bottom {
+    padding: 10px 20px;
+    width: 100%;
+    min-height: 190px;
+    background-image: url(images/ad_3.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    border: none;
+    border: 1px solid transparent;
+    border-radius: 2%;
+}
+/*advertise end*/
+
+/*choose start*/
+.choose {}
+.container-3 {
+    margin: 0 auto;
+    width: 85%;
+    /*border: 1px solid red;*/
+    text-align: center;
+}
+.tasty {
+    margin: 0 43%;
+    padding: 5px 0;
+    border: 1px solid transparent;
+    background-color: #ffc657;
+    font-family: 'Bebas Neue', cursive;
+}
+.c_h2 {
+    text-transform: uppercase;
+    line-height: 35px;
+}
+.c_para {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+}
+/*choose end*/
+
+/*order start*/
+.order {
+    padding: 20px 0;
+}
+.order-1 {
+    margin-right: 3%;
+    padding: 0 15px;
+    float: left;
+    width: 27%;
+    text-align: center;
+    /*border: 1px solid brown;*/
+    overflow: hidden;
+}
+.order-1:last-child {
+    margin-right: 0%;
+}
+.or_image {
+}
+.or_image img {
+    width: auto;
+}
+.or_h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    line-height: 0;
+}
+.or_button {}
+.or_button button {
+    padding: 10px 30px;
+    border: none;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .33s;
+}
+.or_button button:hover {
+    background-color: maroon;
+    color: white;
+}
+/*order start*/
+
+/*events start*/
+.events {}
+.e_con {
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: left;
+}
+.e_box {
+    margin: 0 auto;
+    width: 95%;
+    border: 2px solid transparent;
+    overflow: hidden;
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(15,11,15,0.4);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(15,11,15,0.4);
+    box-shadow: 5px 5px 10px 0px rgba(15,11,15,0.4);
+}
+.e_content {
+    padding: 10px 0px 100px 20px;
+    float: left;
+    width: 45%;
+    text-align: justify;
+    /*border: 1px solid yellow;*/
+}
+.e_p {
+    font-family: 'Bebas Neue', cursive;
+    line-height: 0;
+}
+.e_h2 {
+    line-height: 5px;
+    margin-bottom: 25px;
+}
+.e_img {
+    float: right;
+    width: 45%;
+    /*border: 1px solid yellowgreen;*/
+    min-height: 50px;
+    min-width: 50%;
+    display: block;
+    margin-right: 0;
+}
+.e_img img {
+    width: 100%;
+}
+/*events end*/
+
+/*reservation start*/
+.reservation {
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    width: 600px;
+}
+.container_r {
+    width: 100%;
+    text-align: center;
+    border: 1px solid red;
+}
+.r_h2 {
+    padding: 10px;
+    letter-spacing: 2px;
+}
+.r_table {}
+.t_name {
+    margin: 7px 3px;
+    padding: 8px;
+    width: 42%;
+    height: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 12px;
+    color: #3d3d3d;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.r_but {
+    width: 46%;
+    padding: 8px;
+    height: 40px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: #cd1717;
+    color: whitesmoke;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .33s;
+}
+.r_but:hover {
+    background-color: maroon;
+}
+/*reservation end*/
+
+/*footer start*/
+footer {
+    margin: 0 auto;
+    width: 95%;
+    background: rgba(0,0,0,0.8)url(images/ad_3.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    min-height: 500px;
+}
+.container-f {
+    margin: 0 auto;
+    width: 95%;
+    /*border: 1px solid red;*/
+    overflow: hidden;
+    color: #ffffff;
+}
+.f_left {
+    float: left;
+    width: 55%;
+}
+.f_logo {
+    margin: 70px 5px 50px;
+    width: 45%;
+}
+.f_logo img {
+    width: 100%;
+}
+.f_font {
+    margin-right: 40%;
+    font-size: 13px;
+}
+.f_p {
+    margin: 150px 0 40px;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+    font-size: 11px;
+}
+.f_right {
+    padding-top: 180px;
+    padding-right: 20px;
+    float: right;
+    width: 40%;
+    text-align: center;
+}
+.f_right ul {
+    float: right;
+}
+.f_right ul li {
+    float: right;
+    list-style: none;
+}
+.f_right ul li a {
+    float: left;
+    text-decoration: none;
+}
+.f_right ul li a img {
+    margin: 10px 0px;
+    float: left;
+}
+.f_right ul li a p {
+    margin-left: 40px;
+    padding-left: 23px;
+    padding-right: 50px;
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 17px;
+}
+.f_email {
+    float: right;
+}
+.f_email a {
+    /*margin-right: 15px;*/
+    float: left;
+}
+.f_email img {
+    margin-top: 40px;
+    padding-right: 19px;
+    float: left;
+}
+.f_right ul li:last-child p {
+    padding-left: 23px;
+    padding-right: 102px;
+}
+/*footer end*/
